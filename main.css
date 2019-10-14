@@ -48,6 +48,11 @@ p{
     padding: 20px;
 }
 
+@keyframes orbit1 { 
+    from { transform:rotate(0deg); transform-origin: center; } 
+    to { transform:rotate(360deg); transform-origin: center; } 
+}
+
 @keyframes orbit { 
     from { transform:rotate(0deg); transform-origin: center; } 
     to { transform:rotate(360deg); transform-origin: center; } 
@@ -62,7 +67,6 @@ p{
 #earth{ animation: orbit 36.5s linear infinite; }
 #venus{ animation: orbit 22.4s linear infinite; }
 #mercury{ animation: orbit 8.8s linear infinite; }
-
 
 .ring{
     visibility: hidden;
