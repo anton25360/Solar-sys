@@ -3,6 +3,7 @@ html {
 }
 
 body { 
+
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -52,15 +53,15 @@ p{
     to { transform:rotate(360deg); transform-origin: center; } 
 }
 
-#pluto{ animation: orbit 9s linear infinite; }
-#neptune{ animation: orbit 8s linear infinite; }
-#uranus{ animation: orbit 7s linear infinite; }
-#saturn{ animation: orbit 6s linear infinite; }
-#jupiter{ animation: orbit 5s linear infinite; }
-#mars{ animation: orbit 4s linear infinite; }
-#earth{ animation: orbit 3s linear infinite; }
-#venus{ animation: orbit 2s linear infinite; }
-#mercury{ animation: orbit 1s linear infinite; }
+#pluto{ animation: orbit 9056.0s linear infinite; }
+#neptune{ animation: orbit 5980.0s linear infinite; }
+#uranus{ animation: orbit 3058.9s linear infinite; }
+#saturn{ animation: orbit 1074.7s linear infinite; }
+#jupiter{ animation: orbit 433.1s linear infinite; }
+#mars{ animation: orbit 68.7s linear infinite; }
+#earth{ animation: orbit 36.5s linear infinite; }
+#venus{ animation: orbit 22.4s linear infinite; }
+#mercury{ animation: orbit 8.8s linear infinite; }
 
 
 .ring{
