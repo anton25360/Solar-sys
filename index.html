@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <svg width="600" height="600">
+        
+        <defs>
+            <radialGradient id="neptuneGradient"><stop offset="10%" stop-color="#396afc" /><stop offset="95%" stop-color="#2948ff" /></radialGradient>
+            <radialGradient id="uranusGradient"><stop offset="10%" stop-color="#86A8E7" /><stop offset="95%" stop-color="#7F7FD5" /></radialGradient>
+            <radialGradient id="saturnGradient"><stop offset="10%" stop-color="#feb47b" /><stop offset="95%" stop-color="#ff7e5f" /></radialGradient>
+            <radialGradient id="jupiterGradient"><stop offset="10%" stop-color="#FFE000" /><stop offset="95%" stop-color="#799F0C" /></radialGradient>
+            <radialGradient id="marsGradient"><stop offset="10%" stop-color="brown" /><stop offset="95%" stop-color="red" /></radialGradient>
+            <radialGradient id="earthGradient"><stop offset="10%" stop-color="#38ef7d" /><stop offset="95%" stop-color="#11998e" /></radialGradient>
+            <radialGradient id="venusGradient"><stop offset="10%" stop-color="#E29587" /><stop offset="95%" stop-color="#D66D75" /></radialGradient>
+            <radialGradient id="mercuryGradient"><stop offset="10%" stop-color="#B79891" /><stop offset="95%" stop-color="#94716B" /></radialGradient>
+            <radialGradient id="sunGradient"><stop offset="10%" stop-color="gold" /><stop offset="95%" stop-color="orangered" /></radialGradient>
+
+        </defs>
+
+        <circle class="ring" cx="300" cy="300" r="295" stroke="white" stroke-width="1" fill="none" />
+        <circle class="ring" cx="300" cy="300" r="270" stroke="white" stroke-width="1" fill="none" />
+        <circle class="ring" cx="300" cy="300" r="240" stroke="white" stroke-width="1" fill="none" />
+        <circle class="ring" cx="300" cy="300" r="210" stroke="white" stroke-width="1" fill="none" />
+        <circle class="ring" cx="300" cy="300" r="180" stroke="white" stroke-width="1" fill="none" />
+        <circle class="ring" cx="300" cy="300" r="150" stroke="white" stroke-width="1" fill="none" />
+        <circle class="ring" cx="300" cy="300" r="120" stroke="white" stroke-width="1" fill="none" />
+        <circle class="ring" cx="300" cy="300" r="90" stroke="white" stroke-width="1" fill="none" />
+        <circle class="ring" cx="300" cy="300" r="60" stroke="white" stroke-width="1" fill="none" />
+
+        <circle id="pluto" cx="300" cy="5" r="5" fill="white" />
+        <circle id="neptune" cx="300" cy="30" r="10" fill="url('#neptuneGradient')" />
+        <circle id="uranus" cx="300" cy="60" r="10" fill="url('#uranusGradient')" />
+        <circle id="saturn" cx="300" cy="90" r="18" fill="url('#saturnGradient')" />
+        <circle id="jupiter" cx="300" cy="120" r="10" fill="url('#jupiterGradient')" />
+        <circle id="mars" cx="300" cy="150" r="10" fill="url('#marsGradient')" />
+        <circle id="earth" cx="300" cy="180" r="10" fill="url('#earthGradient')" />
+        <circle id="venus" cx="300" cy="210" r="10" fill="url('#venusGradient')" />
+        <circle id="mercury" cx="300" cy="240" r="10" fill="url('#mercuryGradient')" />
+        <circle id="sun" cx="300" cy="300" r="40" fill="url('#sunGradient')" />
+        
+    </svg>
+
+    
+    <div id="legend">
+            
+        <h1>Planets of the<br> Solar System.</h1>
+
+        <p style="color:white;">Pluto</p>
+        <p style="color:#2f55fe;">Neptune</p>
+        <p style="color:#8189d9;">Uranus</p>
+        <p style="color:#fe9d6f;">Saturn</p>
+        <p style="color:#d9cd03;">Jupiter</p>
+        <p style="color:#df0f0f;">Mars</p>
+        <p style="color:#28cd84;">Earth</p>
+        <p style="color:#d9777a;">Venus</p>
+        <p style="color:#a5847e;">Mercury</p>
+        <p style="color:#ff8800;">The Sun</p>
+    </div>
+
+</body>
+
+</html>
