@@ -6,9 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script defer src="script.js"></script>
+    <script defer src="main.js"></script>
 </head>
 
 <body>
@@ -25,7 +23,6 @@
             <radialGradient id="venusGradient"><stop offset="10%" stop-color="#E29587" /><stop offset="95%" stop-color="#D66D75" /></radialGradient>
             <radialGradient id="mercuryGradient"><stop offset="10%" stop-color="#B79891" /><stop offset="95%" stop-color="#94716B" /></radialGradient>
             <radialGradient id="sunGradient"><stop offset="10%" stop-color="gold" /><stop offset="95%" stop-color="orangered" /></radialGradient>
-
         </defs>
 
         <circle class="ring" cx="300" cy="300" r="295" stroke="white" stroke-width="1" fill="none" />
@@ -51,22 +48,23 @@
         
     </svg>
 
-    
     <div id="legend">
             
         <h1>Planets of the<br> Solar System.</h1>
-
-        <p style="color:white;">Pluto</p>
-        <p style="color:#2f55fe;">Neptune</p>
-        <p style="color:#8189d9;">Uranus</p>
-        <p style="color:#fe9d6f;">Saturn</p>
-        <p style="color:#d9cd03;">Jupiter</p>
-        <p style="color:#df0f0f;">Mars</p>
-        <p style="color:#28cd84;">Earth</p>
-        <p style="color:#d9777a;">Venus</p>
-        <p style="color:#a5847e;">Mercury</p>
+        <p onmouseover="showPlutoRing()" onmouseout="hideRings()" style="color:white;">Pluto</p>
+        <p onmouseover="showNeptuneRing()" onmouseout="hideRings()" style="color:#2f55fe;">Neptune</p>
+        <p onmouseover="showUranusRing()" onmouseout="hideRings()" style="color:#8189d9;">Uranus</p>
+        <p onmouseover="showSaturnRing()" onmouseout="hideRings()" style="color:#fe9d6f;">Saturn</p>
+        <p onmouseover="showJupiterRing()" onmouseout="hideRings()" style="color:#d9cd03;">Jupiter</p>
+        <p onmouseover="showMarsRing()" onmouseout="hideRings()" style="color:#df0f0f;">Mars</p>
+        <p onmouseover="showEarthRing()" onmouseout="hideRings()" style="color:#28cd84;">Earth</p>
+        <p onmouseover="showVenusRing()" onmouseout="hideRings()" style="color:#d9777a;">Venus</p>
+        <p onmouseover="showMercuryRing()" onmouseout="hideRings()" style="color:#a5847e;">Mercury</p>
         <p style="color:#ff8800;">The Sun</p>
+
     </div>
+
+    <footer>yo</footer>
 
 </body>
 
