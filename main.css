@@ -77,11 +77,9 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: rgba(102, 102, 102, 0.5);
     color: white;
     text-align: center;
+    padding: 5px;
+    font-family: productSans;
   }
-
-  /* #plutoLegend:hover{
-      .ring
-  } */
